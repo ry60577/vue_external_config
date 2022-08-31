@@ -5,6 +5,7 @@
 - [Folder Structure](#folder-structure)
 - [Project setup](#project-setup)
 - [External Config](#external-config)
+- [Build Deploy Package](#build-deploy-package)
 
 ## Purpose
 In order not to re-build deploy package caused by changing api url, read the external config.js into vue project as solution. 
@@ -30,6 +31,12 @@ In order not to re-build deploy package caused by changing api url, read the ext
 <script src="<%= BASE_URL %>config/config.js"></script>
 ```
 ![](https://i.imgur.com/awXm4dB.png)
+
+## Build Deploy Package
+```
+npm run build
+```
+![](https://i.imgur.com/skD54yB.png)
 
 ## Project setup
 ```
