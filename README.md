@@ -2,8 +2,8 @@
 
 ## 目錄
 - [Purpose](#purpose)
+- [Environment](#environment)
 - [Folder Structure](#folder-structure)
-- [Project setup](#project-setup)
 - [External Config](#external-config)
 - [Build Deploy Package](#build-deploy-package)
 
@@ -11,6 +11,9 @@
 In order not to re-build deploy package caused by changing api url, read the external config.js into vue project as solution. 
 
 為了不因api url的變動而重複建立部署包，將外部config讀入部屬包作為解決方案
+
+## Environment
+Vue 3
 
 ## Folder Structure
 ![](https://i.imgur.com/p75ahqI.png)
