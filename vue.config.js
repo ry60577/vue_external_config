@@ -29,13 +29,15 @@ module.exports = {
     }
   },
   configureWebpack: config => {
-    Object.assign(config.resolve, {
-      alias: {
-        '@': path.resolve(__dirname, './src'),
-        '@/assets': path.resolve(__dirname, './src/assets'),
-        '@/store': path.resolve(__dirname, './src/store'),
-        '@/composable': path.resolve(__dirname, './src/composable')
+    config.resolve = {
+          ...config.resolve,
+          alias: {
+              '@': path.resolve(__dirname, './src'),
+              '@/assets': path.resolve(__dirname, './src/assets'),
+              '@/store': path.resolve(__dirname, './src/store'),
+              '@/composable': path.resolve(__dirname, './src/composable'),
+              '@/fontawesome': path.resolve(__dirname, './src/assets/plungins/fontawesome-pro-5.13.0-web'),
+          }
       }
-    })
   }
 }
