@@ -1,4 +1,4 @@
-# vue_external_config
+# Vue部署包讀取外部config
 
 ## 目錄
 - [Purpose](#purpose)
@@ -38,23 +38,4 @@ npm run build
 ```
 ![](https://i.imgur.com/skD54yB.png)
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
